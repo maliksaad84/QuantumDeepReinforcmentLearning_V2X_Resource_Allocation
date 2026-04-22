@@ -28,9 +28,6 @@ Training follows a **Centralized Training and Distributed Execution (CTDE)** par
 
 ---
 
-
----
-
 ## 🧠 Learning Framework
 
 Each vehicle observes:
