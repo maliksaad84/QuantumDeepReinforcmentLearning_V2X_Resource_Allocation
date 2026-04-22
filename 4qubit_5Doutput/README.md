@@ -5,22 +5,19 @@ Two settings are explored:
 ###  4-Qubit with Classical Output Head having 4D Input
 
 
-  - This is due to all the features are use for the transformation and enataglement is applied to all the features.  In this setting, we have classical encoder, which compresses the ouput to 4 latent vectors. Now, using variational quantum circircuit (VQC) of 2-Qubits, we pass the latent vectors using  data reuploading method. The out of VQC results in 2 meaurements that are pass to classical output head to map Q-values.   
+  - In this setting, we have classical encoder, which compresses the ouput to 4 latent vectors. Now, using variational quantum circuit (VQC) of 4-Qubits, it collapse to 4 meauresments. These 4 features pass to the classical output head having 4D input features.
 
 ---
 
-### ✔ Sequential Encoding + Concatenation
+###  4-Qubit with Classical Output Head having 5D Input
 
-- Processes features sequentially  
-- Outputs are concatenated  
-- Classical head operates on **4D aggregated features**
-  -  In this setting, we have classical encoder, which comporesses the ouput to 4 latent vectors. Now, using variational quantum circircuit (VQC) of 2-Qubits, we pass the latent vectors using two forward pass in the same ietration. Then the measurements from the quantum circuit are concatenated. The concatenated features are pass to classical output head for Q-vlaues estimation. The policy learned slightly well incontrast to former approach. This is due to the classical head has richer features input. However the learning is slow to have performance gain. The performance gain comes from the interaction with more number of episodes but still the performance is beneath the 4-Qubit circuit. using
+ - In this setting, we have classical encoder, which compresses the ouput to 4 latent vectors. Now, using variational quantum circircuit (VQC) of 4-Qubits, it collapse to 4 meauresments. These 4 features pass to the classical output head having 5D input features. The 5th input of the classical output head is the aveage of the 4 latent features
     
-![Sequential Encoding](2-Qubit_sequential_encoding.png)
 
 
-### ✔ Results
+###  Results
 
-- Following is the convergennce plot of the 2-Qubit Quantum circuit with re-uploading method and sequential encoding + concatenation.
+- Since the average of 4 measured latents used as a 5th input of the classical output head. From the performance it is observed that it add little noise variance however, there is no obvious difference in performance. This might be due to no useful informative feature given to the output head.
 
- ![convergennce plot of the 2-Qubit Quantum circuit](comparison_2q_reuploading_vs_seqconcat.png)
+
+ ![convergennce plot of the 4-Qubit Quantum circuit](comparison_2q_reuploading_vs_seqconcat.png)
