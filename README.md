@@ -63,7 +63,7 @@ We compare:
 
 - **DRL (MLP-based baseline)**  
 - **QDRL with different qubit configurations:**
-  - ![2 Qubits](2Qubit_seq_concatenation_and_plain/)
+  - [2 Qubits](2Qubit_seq_concatenation_and_plain/)
     - Reuploading Method
     - Sequential Encoding & Concatenation    
   - ![4 Qubits](4qubit_5Doutput/)
