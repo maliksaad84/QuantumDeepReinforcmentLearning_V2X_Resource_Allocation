@@ -119,7 +119,7 @@ We compare:
 
 ## 📌 Important Notes
 
-- The environment models realistic NR-V2X sidelink communication  
+- The environment models realistic NR-V2X sidelink communication, the tracefiles are generated from the SUMO. 
 - Vehicles operate in a **fully distributed manner**  
 - Training is performed centrally using collected experience  
 
