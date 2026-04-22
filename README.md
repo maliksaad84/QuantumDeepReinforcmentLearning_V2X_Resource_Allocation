@@ -66,10 +66,10 @@ We compare:
   - ![2 Qubits](2Qubit_seq_concatenation_and_plain/)
     - Reuploading Method
     - Sequential Encoding & Concatenation    
-  - 4 Qubits
+  - ![4 Qubits](4qubit_5Doutput/)
     - with 4D Classical Output Head
     - with 5D Classical Output Head
-  - 5 Qubits  
+  - ![5 Qubits](5_Qubit)  
 
 ---
 
