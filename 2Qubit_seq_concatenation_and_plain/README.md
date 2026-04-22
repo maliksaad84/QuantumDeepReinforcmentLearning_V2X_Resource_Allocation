@@ -4,7 +4,8 @@ Two strategies are explored:
 
 ### ✔ Re-uploading Method
 
-- Re-encodes features multiple times  
+- Re-encodes features multiple times:
+  This   
 - Enhances expressivity under limited qubits  
 
 ![Reupload](figures/2qubit_reupload.png)
