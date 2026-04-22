@@ -8,7 +8,7 @@ Two strategies are explored:
 - Enhances expressivity under limited qubits
   - This is due to all the features are use for the transformation and enataglement is applied to all the features.  In this setting, we have classical encoder, which comporesses the couput to 4 latent vectors. Now, using variational quantum circircuit (VQC) of 2-Qubits, we pass the latent vectors using  data reuploading method. The out of VQC results in 2 meaurements that are pass to classical output head to map Q-values.   
 
-![Reupload](2Qubit_seq_concatenation_and_plain/comparison_2q_reuploading_vs_seqconcat.png)
+![Reupload](QuantumDeepReinforcmentLearning_V2X_Resource_Allocation/2Qubit_seq_concatenation_and_plain/comparison_2q_reuploading_vs_seqconcat.png)
 
 ---
 
