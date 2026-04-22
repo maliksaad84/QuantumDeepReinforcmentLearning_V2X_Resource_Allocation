@@ -20,4 +20,4 @@ Two settings are explored:
 - Since the average of 4 measured latents used as a 5th input of the classical output head. From the performance it is observed that it add little noise variance however, there is no obvious difference in performance. This might be due to no useful informative feature given to the output head.
 
 
- ![convergennce plot of the 4-Qubit Quantum circuit](comparison_2q_reuploading_vs_seqconcat.png)
+ ![convergennce plot of the 4-Qubit Quantum circuit](comparison_4q_vs_4q_5d.png)
