@@ -29,3 +29,159 @@ Training follows a **Centralized Training and Distributed Execution (CTDE)** par
 ---
 
 ## ⚙️ Repository Structure
+├── environment/ # NR-V2X simulation environment
+├── drl_baseline/ # Classical DRL (MLP-based)
+├── qdrl_2qubit/ # 2-qubit quantum models
+├── qdrl_4qubit/ # 4-qubit quantum models
+├── qdrl_5qubit/ # 5-qubit quantum models
+├── analysis/ # PCA and representation analysis
+├── figures/ # Plots and architecture diagrams
+└── README.md
+
+
+---
+
+## 🧠 Learning Framework
+
+Each vehicle observes:
+
+- Local traffic density  
+- Mobility features (speed, neighbors)  
+- Temporal packet generation behavior  
+
+Based on these observations, the agent selects:
+
+- Resource blocks  
+- Transmission intervals  
+- Scheduling parameters  
+
+### 🎯 Objective
+
+Maximize:
+
+- **Packet Delivery Ratio (PDR)**  
+- **Freshness of Information (AoI)**  
+- **Spectrum Efficiency**  
+
+Minimize:
+
+- Packet drops  
+- Channel congestion  
+
+---
+
+## 📊 Performance Evaluation
+
+We compare:
+
+- **DRL (MLP-based baseline)**  
+- **QDRL with different qubit configurations:**
+  - 2 Qubits  
+  - 4 Qubits  
+  - 5 Qubits  
+
+---
+
+## 📈 Convergence Behavior
+
+![Convergence](figures/convergence_all.png)
+
+### 🔍 Key Observations
+
+- QDRL achieves **faster convergence** than DRL  
+- 4-qubit and 5-qubit models converge around **~400 episodes**  
+- DRL requires **~1500+ episodes**  
+- 2-qubit model converges early but with **lower final reward**  
+
+---
+
+## 🔬 Representation Analysis (PCA)
+
+![PCA QDRL](figures/pca_qdrl.png)
+![PCA DRL](figures/pca_drl.png)
+
+### 🔍 Insights
+
+- QDRL produces **structured and separable latent representations**  
+- DRL representations are **scattered and less informative**  
+- Quantum circuits improve **feature interaction via entanglement**  
+
+---
+
+## ⚡ Effect of Qubit Scaling
+
+| Qubits | Observation |
+|--------|-----------|
+| **2 Qubits** | Fast convergence but limited performance (information bottleneck) |
+| **4 Qubits** | Strong performance and stable learning |
+| **5 Qubits** | Similar performance to 4Q (diminishing returns) |
+
+---
+
+## 🔍 2-Qubit Special Analysis
+
+Two strategies are explored:
+
+### ✔ Re-uploading Method
+
+- Re-encodes features multiple times  
+- Enhances expressivity under limited qubits  
+
+![Reupload](figures/2qubit_reupload.png)
+
+---
+
+### ✔ Sequential Encoding + Concatenation
+
+- Processes features sequentially  
+- Outputs are concatenated  
+- Classical head operates on **4D aggregated features**  
+
+![Concat](figures/2qubit_concat.png)
+
+---
+
+## 🔁 DRL vs QDRL
+
+| Aspect | DRL (MLP) | QDRL (VQC) |
+|------|----------|-----------|
+| Convergence Speed | Slow | Fast |
+| Stability | Moderate | High |
+| Representation Quality | Weak | Strong |
+| Feature Interaction | Limited | Enhanced (Entanglement) |
+
+---
+
+## 🚀 Key Contributions
+
+- First study of **quantum-enhanced DRL for NR-V2X Mode 2**  
+- Hybrid classical–quantum architecture for resource allocation  
+- Analysis of **qubit scalability effects**  
+- PCA-based evaluation of latent representations  
+- Practical insights for **6G quantum-enabled V2X systems**  
+
+---
+
+## 📌 Important Notes
+
+- The environment models realistic NR-V2X sidelink communication  
+- Vehicles operate in a **fully distributed manner**  
+- Training is performed centrally using collected experience  
+
+Full methodological details are provided in the paper.
+
+---
+
+## 🔮 Future Directions
+
+- Quantum-aware explainability frameworks  
+- Integration with **6G AI-native architectures**  
+- Standardization of quantum-enhanced V2X  
+- Deployment on real quantum hardware  
+
+---
+
+## 📬 Citation
+
+```bibtex
+(To be updated after publication)
