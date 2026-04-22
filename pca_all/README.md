@@ -18,12 +18,12 @@
 
 - The following shows the PCA for the 2-Qubit Quantum Circuit.
 
-![PCA DRL](drl_2q_plot.png)
+![PCA DRL](qdrl_2q_plot.png)
 
 - The following shows the PCA for the 4-Qubit Quantum Circuit.
 
-![PCA DRL](drl_4q_plot.png)
+![PCA DRL](qdrl_4q_pca.png)
 
 - The following shows the PCA for the 5-Qubit Quantum Circuit.
 
-![PCA DRL](drl_5q_plot.png)
+![PCA DRL](qdrl_5q_pca.png)
