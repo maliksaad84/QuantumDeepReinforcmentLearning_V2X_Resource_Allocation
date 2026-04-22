@@ -1,4 +1,4 @@
-# 📘 Quantum-Enhanced Multi-Agent Learning for Distributed Resource Allocation in NR-V2X
+#  Quantum-Enhanced Multi-Agent Learning for Distributed Resource Allocation in NR-V2X
 
 This repository presents the implementation and experimental evaluation of:
 
