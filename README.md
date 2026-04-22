@@ -88,10 +88,7 @@ We compare:
 
 ## 🔬 Representation Analysis (PCA)
 
-![PCA QDRL](figures/pca_qdrl.png)
-![PCA DRL](figures/pca_drl.png)
-
-### 🔍 Insights
+### 🔍 ![Insights](pca_all)
 
 - QDRL produces **structured and separable latent representations**  
 - DRL representations are **scattered and less informative**  
