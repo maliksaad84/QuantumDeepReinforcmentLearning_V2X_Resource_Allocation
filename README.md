@@ -61,7 +61,7 @@ Minimize:
 
 We compare:
 
-- **DRL (MLP-based baseline)**  
+- **[DRL (MLP-based baseline)](DRL/)**  
 - **QDRL with different qubit configurations:**
   - [2 Qubits](2Qubit_seq_concatenation_and_plain/)
     - Reuploading Method
