@@ -24,4 +24,4 @@ Two strategies are explored:
 
 - Following is the convergennce plot of the 2-Qubit Quantum circuit with re-uploading method and sequential encoding + concatenation.
 
-- ![Sequential Encoding](2-Qubit_sequential_encoding.png)
+ ![convergennce plot of the 2-Qubit Quantum circuit](comparison_2q_reuploading_vs_seqconcat.png)
