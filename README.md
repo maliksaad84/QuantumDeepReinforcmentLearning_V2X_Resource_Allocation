@@ -137,15 +137,6 @@ Full methodological details are provided in the paper.
 
 ---
 
-## 🔮 Future Directions
-
-- Quantum-aware explainability frameworks  
-- Integration with **6G AI-native architectures**  
-- Standardization of quantum-enhanced V2X  
-- Deployment on real quantum hardware  
-
----
-
 ## 📬 Citation
 
 ```bibtex
