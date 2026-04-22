@@ -75,7 +75,7 @@ We compare:
 
 ## 📈 Convergence Behavior
 
-[Convergence](figures/convergence_all.png)
+[Convergence](convergence_plot.png)
 
 ### 🔍 Key Observations
 
