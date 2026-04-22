@@ -75,7 +75,7 @@ We compare:
 
 ## 📈 Convergence Behavior
 
-![Convergence](figures/convergence_all.png)
+[Convergence](figures/convergence_all.png)
 
 ### 🔍 Key Observations
 
@@ -88,7 +88,7 @@ We compare:
 
 ## 🔬 Representation Analysis (PCA)
 
-### 🔍 ![Insights](pca_all)
+### 🔍 [Insights](pca_all)
 
 - QDRL produces **structured and separable latent representations**  
 - DRL representations are **scattered and less informative**  
