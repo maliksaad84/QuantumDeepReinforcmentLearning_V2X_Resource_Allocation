@@ -12,7 +12,7 @@
 
 ###  Results
 
-- Eventhough the 5th feature curated by averaging the 4 latent features, it shows good representation due to qunatum entaglement and superposition. Howevert the perfromance is slighlty better comapred to 4-Qubit Quantum circuit. The performance could be further improved by choosing the features more intutively.
+- Eventhough the 5th feature curated by averaging the 4 latent features, it shows good representation due to qunatum entaglement and superposition. However, the perfromance is slighlty better compared to 4-Qubit Quantum circuit. The performance could be further improved by choosing the features more intutively.
 
 
- ![convergennce plot of the 4-Qubit Quantum circuit](comparison_4q_vs_4q_5d.png)
+ ![convergennce plot of the 5-Qubit Quantum circuit](reward_5qubit_vs_drl.png)
