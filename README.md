@@ -106,16 +106,6 @@ We compare:
 
 ---
 
-## 🔁 DRL vs QDRL
-
-| Aspect | DRL (MLP) | QDRL (VQC) |
-|------|----------|-----------|
-| Convergence Speed | Slow | Fast |
-| Stability | Moderate | High |
-| Representation Quality | Weak | Strong |
-| Feature Interaction | Limited | Enhanced (Entanglement) |
-
----
 
 ## 🚀 Key Contributions
 
