@@ -19,4 +19,4 @@ Two strategies are explored:
 - Classical head operates on **4D aggregated features**
   -  In this setting, we have classical encoder, which comporesses the ouput to 4 latent vectors. Now, using variational quantum circircuit (VQC) of 2-Qubits, we pass the latent vectors using two forward pass in the same ietration. Then the measurements from the quantum circuit are concatenated. The concatenated features are pass to classical output head for Q-vlaues estimation. The policy learned slightly well incontrast to former approach. This is due to the classical head has richer features input. However the learning is slow to have performance gain. The performance gain comes from the interaction with more number of episodes but still the performance is beneath the 4-Qubit circuit. using
     
-![Concat](figures/2qubit_concat.png)
+![Sequential Encoding](QuantumDeepReinforcmentLearning_V2X_Resource_Allocation/2Qubit_seq_concatenation_and_plain/2-Qubit_sequential_encoding.png)
