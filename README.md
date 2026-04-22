@@ -28,16 +28,6 @@ Training follows a **Centralized Training and Distributed Execution (CTDE)** par
 
 ---
 
-## ⚙️ Repository Structure
-├── environment/ # NR-V2X simulation environment
-├── drl_baseline/ # Classical DRL (MLP-based)
-├── qdrl_2qubit/ # 2-qubit quantum models
-├── qdrl_4qubit/ # 4-qubit quantum models
-├── qdrl_5qubit/ # 5-qubit quantum models
-├── analysis/ # PCA and representation analysis
-├── figures/ # Plots and architecture diagrams
-└── README.md
-
 
 ---
 
