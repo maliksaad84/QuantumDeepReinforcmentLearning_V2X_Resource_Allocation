@@ -76,8 +76,12 @@ We compare:
 
 - **DRL (MLP-based baseline)**  
 - **QDRL with different qubit configurations:**
-  - 2 Qubits  
-  - 4 Qubits  
+  - !2 Qubits
+    - Reuploading Method
+    - Sequential Encoding & Concatenation    
+  - 4 Qubits
+    - with 4D Classical Output Head
+    - with 5D Classical Output Head
   - 5 Qubits  
 
 ---
